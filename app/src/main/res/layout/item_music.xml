@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/music_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@android:color/black"
+    >
+
+    <ImageView
+        android:id="@+id/music_img"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+
+        android:background="@android:color/black"
+        android:padding="4dp"
+        />
+
+    <TextView
+        android:id="@+id/music_file_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@id/music_img"
+        tools:text="Despacito.mp3"
+        />
+
+</RelativeLayout>
